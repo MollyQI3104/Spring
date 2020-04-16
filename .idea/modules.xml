@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/geekbang-lessons.iml" filepath="$PROJECT_DIR$/geekbang-lessons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thinking-in-spring/ioc-container-overview/ioc-container-overview.iml" filepath="$PROJECT_DIR$/thinking-in-spring/ioc-container-overview/ioc-container-overview.iml" />
       <module fileurl="file://$PROJECT_DIR$/thinking-in-spring/thinking-in-spring.iml" filepath="$PROJECT_DIR$/thinking-in-spring/thinking-in-spring.iml" />
     </modules>
   </component>
