@@ -18,3 +18,5 @@
 *   单个Bean对象
 *   集合Bean对象
 
+
+3.依赖注入，依赖来源，ApplicationContext和BeanFactory的关系
