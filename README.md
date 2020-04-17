@@ -55,3 +55,5 @@
 ### 2. 实现InitializingBean接口 afterPropertiesSet()
 ### 3. 自定义初始化方法 @Bean(initMethod = "initUserFactory") 或者 xml配置 或者 通过java api
  以上顺序符合优先级
+ 延期初始化/非延期初始化
+ 
