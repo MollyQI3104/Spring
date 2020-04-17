@@ -26,13 +26,16 @@
    2.通过 AbstractBeanDefinition 以及派生类
    
 ## 6.BeanDefination 注册
+
 ### 1.xml配置元信息
    <bean name="..." />
+   
 ### 2.java注解配置元信息
  * 1.通过 @Bean 方式 定义
  * 2.通过 @Component 方式
  * 3.导入 @Import 进行导入
  * 不会重复注册
+ 
 ### 3.java api 配置元信息
    命名方式
    非命名方式
