@@ -25,7 +25,6 @@
    2.通过 AbstractBeanDefinition 以及派生类
    
 ## 6.BeanDefination 注册
-
 ### 1.xml配置元信息
    <bean name="..." />
    
@@ -62,7 +61,10 @@
 ### 2. 实现DisposableBean接口 destroy()
 ### 3. 自定义方法 @Bean(destroyMethod = "doDestroy") 或者 xml配置 或者 通过java api
 
-
+## Bean 注册
+### 6.BeanDefination 注册
+### 外部单体对象注册 SingletonBeanRegistrationDemo
+ 
  
  
  
