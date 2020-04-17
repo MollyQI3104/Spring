@@ -57,3 +57,12 @@
  以上顺序符合优先级
  延期初始化/非延期初始化
  
+## 9.Bean 销毁
+### 1. @PreDestroy 方法自动调用
+### 2. 实现DisposableBean接口 destroy()
+### 3. 自定义方法 @Bean(destroyMethod = "doDestroy") 或者 xml配置 或者 通过java api
+
+
+ 
+ 
+ 
