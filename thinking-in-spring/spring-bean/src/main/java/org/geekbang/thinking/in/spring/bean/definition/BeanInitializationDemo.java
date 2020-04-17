@@ -47,7 +47,7 @@ public class BeanInitializationDemo {
     }
 
     @Bean(initMethod = "initUserFactory", destroyMethod = "doDestroy")
-    @Lazy //延迟初始化
+    // @Lazy 延迟初始化
     public UserFactory userFactory(){
         return new DefaultUserFactory();
     }
