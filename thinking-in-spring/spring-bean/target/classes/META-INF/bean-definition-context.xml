@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<!--    导入第三方 Spring XML 配置文件-->
+    <import resource="../META_INF/dependency-lookup-context" />
+<!--    将 Spring 容器中的 "user" Bean 关联/建立 别名 "molly-user"-->
+<!--    bean的别名是为了更场景化的应用-->
+    <alias name="user" alias="molly-user" />
+
+</beans>

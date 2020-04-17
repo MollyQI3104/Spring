@@ -20,7 +20,10 @@
 
 
 3.依赖注入，依赖来源，ApplicationContext和BeanFactory的关系
+
 4.ApplicationContext 和 BeanFactory作为IoC容器
+
 5. BeanDefinition元信息 如何定义
+
    两种方法： 1.通过 BeanDefinitionBuilder 构建 2.通过 AbstractBeanDefinition 以及派生类
    

@@ -11,9 +11,9 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="ioc-container-overview" target="1.5" />
-      <module name="spring-bean" target="1.5" />
-      <module name="thinking-in-spring" target="1.5" />
+      <module name="ioc-container-overview" target="1.8" />
+      <module name="spring-bean" target="1.8" />
+      <module name="thinking-in-spring" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
