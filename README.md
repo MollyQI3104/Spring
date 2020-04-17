@@ -17,16 +17,6 @@
 *   单个Bean对象
 *   集合Bean对象
 
-
-<<<<<<< HEAD
-3.依赖注入，依赖来源，ApplicationContext和BeanFactory的关系
-
-4.ApplicationContext 和 BeanFactory作为IoC容器
-
-5. BeanDefinition元信息 如何定义
-
-   两种方法： 1.通过 BeanDefinitionBuilder 构建 2.通过 AbstractBeanDefinition 以及派生类
-=======
 ## 3.依赖注入，依赖来源，ApplicationContext和BeanFactory的关系
 ## 4.ApplicationContext 和 BeanFactory作为IoC容器
 ## 5. BeanDefinition元信息 如何定义(创建)
@@ -60,4 +50,8 @@
 1.ServiceLoaderFactoryBean
 2.AutowireCapableBeanFactory
 
-   
+## 8.Bean 初始化
+### 1. @PostConstruct 方法自动调用
+### 2. 实现InitializingBean接口 afterPropertiesSet()
+### 3. 自定义初始化方法 @Bean(initMethod = "initUserFactory") 或者 xml配置 或者 通过java api
+ 以上顺序符合优先级
