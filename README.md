@@ -60,5 +60,4 @@
 1.ServiceLoaderFactoryBean
 2.AutowireCapableBeanFactory
 
->>>>>>> f5662a7da20bdd8bbdb4d3fa65870a52d9168b1e
    
