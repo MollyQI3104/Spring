@@ -65,6 +65,8 @@
 ### 6.BeanDefination 注册
 ### 外部单体对象注册 SingletonBeanRegistrationDemo
  
- 
- 
+## 依赖查找
+### 层次性
+### 单一，集合，层次依赖查找的安全性
+
  
