@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-bean" />
+        <module name="dependency-lookup" />
         <module name="ioc-container-overview" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="dependency-lookup" target="1.8" />
       <module name="ioc-container-overview" target="1.8" />
       <module name="spring-bean" target="1.8" />
       <module name="thinking-in-spring" target="1.8" />

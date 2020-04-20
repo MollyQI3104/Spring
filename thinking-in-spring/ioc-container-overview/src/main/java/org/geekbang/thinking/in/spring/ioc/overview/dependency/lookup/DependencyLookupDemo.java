@@ -75,6 +75,10 @@ public class DependencyLookupDemo {
         if(beanFactory instanceof ListableBeanFactory){
             ListableBeanFactory listableBeanFactory = (ListableBeanFactory)beanFactory;
             Map<String,User> users = listableBeanFactory.getBeansOfType(User.class);//此调用返回map，id为key，内容为value
+            // 补充知识
+            // listableBeanFactory.getBeanNamesForType(User.class);
+            // 可以获得同类型的bean的名称列表，推荐使用这种方法判断bean是否存在，最好方式是判断beanDefinition是否存在
+            // getBeansOfType 可能会触发一些bean的初始化（提早），产生不确定因素
             System.out.println("查找到的所有User集合对象" + users);
 //            查找到的所有User集合对象{user=User{id=1, name='Molly'}}
 //            key: user value: User{id=1, name='Molly'}
